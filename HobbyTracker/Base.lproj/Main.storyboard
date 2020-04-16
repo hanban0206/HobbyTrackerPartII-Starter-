@@ -60,13 +60,16 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="hobbyCountLabel" destination="vtp-Sj-Shs" id="uI7-lD-uOm"/>
-                                            <outlet property="hometownLabel" destination="0KL-DW-9Up" id="hdI-mb-NgL"/>
-                                            <outlet property="nameLabel" destination="var-Ul-nUN" id="7YF-vJ-Ker"/>
+                                            <outlet property="hobbiesLabel" destination="vtp-Sj-Shs" id="GD8-pb-Brp"/>
+                                            <outlet property="hometownLabel" destination="0KL-DW-9Up" id="7cQ-rZ-zyp"/>
+                                            <outlet property="nameLabel" destination="var-Ul-nUN" id="pL6-88-mgF"/>
                                             <segue destination="ZPY-uv-qpc" kind="show" identifier="ShowFriendDetailSegue" id="UON-2a-Mho"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="twg-xr-WYt"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
